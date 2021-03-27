@@ -12,6 +12,7 @@ module.exports = {
     author: `gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

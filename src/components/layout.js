@@ -41,6 +41,14 @@ export default function Layout({ children }) {
           </h3>
         </Link>
         <Link
+          to={`/form/`}
+          css={css`
+            margin: 0 15px;
+          `}
+        >
+          Форма
+        </Link>
+        <Link
           to={`/about/`}
           css={css`
             float: right;
